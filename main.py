@@ -1,14 +1,23 @@
-import time
-start_time = time.time()
-print("hello")
-print("world")
-#ini adalah komen
-a = 10
-""""ini adalah multiline komen"""
-print(a)
+lis = ['mail','ilham','udin','anang','abdi']
+
+for i, lis in enumerate(lis):
+    print(i,lis)
+
+print("\n")
+for i in range(0,10):
+    print(i)
+
+print("\n")
 
 
-# kita bisa mengkompile pyhton ke 
-# namanya bytecode
-# cara mengcompile
-# tuliskan python -m py_compile main.py
+data = int(input("masukan angka : "))
+
+while data > 1:
+    print(data)
+    data += 1
+
+    if data > 4000:
+        angka = int(input("masukin angka lagi "))
+
+        if angka > 3:
+            print(angka)
